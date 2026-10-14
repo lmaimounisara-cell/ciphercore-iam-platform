@@ -1,0 +1,8 @@
+{
+    "name": "ciphercore/cipherbank",
+    "description": "CipherBank secure banking platform",
+    "type": "project",
+    "require": {
+        "jumbojett/openid-connect-php": "^1.0"
+    }
+}
