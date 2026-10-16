@@ -1,0 +1,7 @@
+CipherCore RBAC integration tests
+=================================
+PASS: Public health endpoint (HTTP 200)
+PASS: Unauthenticated admin request (HTTP 401)
+PASS: Admin access to admin endpoint (HTTP 200)
+PASS: Admin access to visitor endpoint (HTTP 403)
+PASS: Admin access to editor endpoint (HTTP 403)

@@ -2,3 +2,19 @@
 .env.*
 !.env.example
 app/vendor/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+**/*-secret*
+**/*-credentials*
+**/*-token*
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+
+# Local runtime files
+.DS_Store
+Thumbs.db
